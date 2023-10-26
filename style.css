@@ -1,0 +1,37 @@
+html{
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    color: white;
+    background-color: #242424;
+    font-weight: 200px;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+.words{
+    max-width: 500px;
+    margin: 50px auto;
+    background: rgb(0, 109, 177);
+    border-radius: 5px;
+    box-shadow: 10px 10px 0 lightblue;
+    padding: 1rem 2rem 1rem 5rem;
+    background-size: 100% 3rem;
+    line-height: 3rem;
+}
+
+.words::before{
+    content: "";
+    position: absolute;
+    width: 4px;
+    top: 0;
+    left: 30px;
+    bottom: 0;
+    border: 1px solid transparent;
+
+}
